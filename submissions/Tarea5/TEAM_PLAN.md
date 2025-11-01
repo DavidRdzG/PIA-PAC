@@ -20,3 +20,6 @@
 - **Snapshots** restauración de la snapshot tras la ejecucion del codigo.
 - **Sin persistencia**: no escribir claves en disco.
 - **Trazabilidad**: registro de acciones tomadas por el programa.
+
+**SHA de commit inicial**
+- b928b4870a84f5eb2befa187a036998e0831fa97
