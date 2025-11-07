@@ -14,12 +14,12 @@ TARGET := payload_client
 all: debug
 
 debug:
-    mkdir -p $(BINDIR_DEBUG)
-    $(CXX) $(CXXFLAGS_DEBUG) $(SRCDIR)/payload_client.cpp -o $(BINDIR_DEBUG)/$(TARGET)
+	mkdir -p $(BINDIR_DEBUG)
+	$(CXX) $(CXXFLAGS_DEBUG) $(SRCDIR)/payload_client.cpp -o $(BINDIR_DEBUG)/$(TARGET)
 
 release:
-    mkdir -p $(BINDIR_RELEASE)
-    $(CXX) $(CXXFLAGS_RELEASE) $(SRCDIR)/payload_client.cpp -o $(BINDIR_RELEASE)/$(TARGET)
+	mkdir -p $(BINDIR_RELEASE)
+	$(CXX) $(CXXFLAGS_RELEASE) $(SRCDIR)/payload_client.cpp -o $(BINDIR_RELEASE)/$(TARGET)
 
 clean:
-    rm -rf bin/*
+	rm -rf bin/*
