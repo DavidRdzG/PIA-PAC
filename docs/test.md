@@ -5,6 +5,15 @@
 
 Comandos usados
 ```bash
+davidsandbox@lubuntuvm:~/Desktop$ cd PIA-PAC/
+davidsandbox@lubuntuvm:~/Desktop/PIA-PAC$ python3 src/server/server_stub.py --host 127.0.0.1 8000
+usage: server_stub.py [-h] [--host HOST] [--port PORT]
+server_stub.py: error: unrecognized arguments: 8000
+davidsandbox@lubuntuvm:~/Desktop/PIA-PAC$ python3 src/server/server_stub.py --host 127.0.0.1 --port 8000
+Server Stub en escucha 127.0.0.1:8000
+127.0.0.1 - - [07/Nov/2025 23:16:01] "GET /status HTTP/1.1" 200 -
+
+
 davidsandbox@lubuntuvm:~/Desktop$ cd PIA-PAC/bin/
 davidsandbox@lubuntuvm:~/Desktop/PIA-PAC/bin$ ls
 debug  release
