@@ -33,5 +33,6 @@ python3 src/server/server_stub.py --host 127.0.0.1 --port 8000
 Ejecutar cliente
 
 ```bash
-cd /bin/debug/payload_client 127.0.0.1 8000
+cd /bin/debug/
+./payload_client 127.0.0.1 8000
 ```
