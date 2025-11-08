@@ -1,3 +1,4 @@
+```bash
 davidsandbox@lubuntuvm:~/Desktop$ cd PIA-PAC/bin/
 davidsandbox@lubuntuvm:~/Desktop/PIA-PAC/bin$ ls
 debug  release
@@ -15,4 +16,4 @@ Content-Length: 64
 
 {"status": "ok", "message": "Servidor de pruebas - PIA Tarea 6"}davidsandavidsandbox@lubuntuvm:~/Desktop/PIA-PAC/bin/debug$ ^C
 davidsandbox@lubuntuvm:~/Desktop/PIA-PAC/bin/debug$ 
-
+```
