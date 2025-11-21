@@ -34,4 +34,4 @@
 
 ---
 
-[x] video_Flores_Jair.mp4 — commit — duración 03:10 (Hash: 2ae11190834bed3706d78ef7e498b9942eb9f9bd)
+- [x] video_Flores_Jair.mp4 — commit — duración 03:10 (Hash: 2ae11190834bed3706d78ef7e498b9942eb9f9bd)
