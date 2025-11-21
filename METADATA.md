@@ -2,89 +2,95 @@
 
 ## Datos generales
 - **Nombre:** kali-linux-2025.3-virtualbox-amd64
-- **OS guest:** Debian (64-bit)
-- **Arquitectura:** x86
-- **Estado:** Powered off (desde 2025-11-21T04:47:00.550000000)
-- **Descripción:**
-  Kali Rolling (2025.3) x64  
-  Fecha base: 2025-09-09
+- **Encryption:** disabled
+- **Groups:** /
+- **Platform Architecture:** x86
+- **Guest OS:** Debian (64-bit)
+- **UUID:** f00b7093-11ce-41f5-a5ec-1d3dd5bece3f
+- **State:** powered off (since 2025-11-21T04:47:00.550000000)
 
 ## Ubicaciones
-- **UUID:** f00b7093-11ce-41f5-a5ec-1d3dd5bece3f
-- **Config file:**  
-  C:\\Users\\PC\\Desktop\\kali-linux-2025.3-virtualbox-amd64\\kali-linux-2025.3-virtualbox-amd64.vbox
-- **Snapshot folder:**  
-  C:\\Users\\PC\\Desktop\\kali-linux-2025.3-virtualbox-amd64\\Snapshots
-- **Log folder:**  
-  C:\\Users\\PC\\Desktop\\kali-linux-2025.3-virtualbox-amd64\\Logs
-- **BIOS NVRAM file:**  
-  C:\\Users\\PC\\Desktop\\kali-linux-2025.3-virtualbox-amd64\\kali-linux-2025.3-virtualbox-amd64.nvram
+- **Config file:** C:\Users\PC\Desktop\kali-linux-2025.3-virtualbox-amd64\kali-linux-2025.3-virtualbox-amd64.vbox
+- **Snapshot folder:** C:\Users\PC\Desktop\kali-linux-2025.3-virtualbox-amd64\Snapshots
+- **Log folder:** C:\Users\PC\Desktop\kali-linux-2025.3-virtualbox-amd64\Logs
+- **Hardware UUID:** f00b7093-11ce-41f5-a5ec-1d3dd5bece3f
+- **BIOS NVRAM File:** C:\Users\PC\Desktop\kali-linux-2025.3-virtualbox-amd64\kali-linux-2025.3-virtualbox-amd64.nvram
 
 ## Hardware
-- **Memoria RAM:** 2048 MB
-- **VRAM:** 128 MB
-- **CPU:** 2 vCPU
-- **Chipset:** PIIX3
+- **Memory size:** 2048MB
+- **VRAM size:** 128MB
+- **Number of CPUs:** 2
+- **CPU exec cap:** 100%
+- **Chipset:** piix3
 - **Firmware:** BIOS
+- **PAE:** enabled
+- **Long Mode:** enabled
+- **APIC:** enabled
+- **X2APIC:** enabled
+- **3D Acceleration:** disabled
 - **Graphics Controller:** VMSVGA
-- **3D Acceleration:** Disabled
-- **Paravirtualization:** KVM
-- **Pointing device:** USB Tablet
-- **Keyboard:** PS/2 Keyboard
-- **Audio:** Enabled (DirectSound, AC97, codec AD1980)
+- **Monitor count:** 1
 
-## Virtualización y CPU
-- **PAE:** Enabled
-- **Long Mode:** Enabled
-- **Nested Virtualization:** Disabled
-- **Hardware Virtualization:** Enabled
-- **Nested Paging:** Enabled
-- **Unrestricted Exec:** Enabled
-- **VT-x VPID:** Enabled
+## Virtualización
+- **Hardware Virtualization:** enabled
+- **Nested Paging:** enabled
+- **Large Pages:** enabled
+- **VT-x VPID:** enabled
+- **VT-x Unrestricted Exec.:** enabled
+- **AMD-V Virt. Vmsave/Vmload:** enabled
+- **Nested VT-x/AMD-V:** disabled
+- **Paravirt Provider:** Default (Effective: KVM)
 
 ## Almacenamiento
-### Controladores:
-- **IDE (PIIX4)**
-  - Puerto 1: Empty
-
-- **SATA (IntelAhci)**
-  - Port 0:
-    - **VDI:** {48c5b818-b97c-40dd-a6eb-0533bbf43cb2}.vdi
-    - **Location:**
-      C:\\Users\\PC\\Desktop\\kali-linux-2025.3-virtualbox-amd64\\Snapshots\\{48c5b818-b97c-40dd-a6eb-0533bbf43cb2}.vdi
+### Storage Controllers
+- **IDE (PIIX4):** Port 1 = Empty
+- **SATA (IntelAhci):**
+  - Port 0: UUID 48c5b818-b97c-40dd-a6eb-0533bbf43cb2  
+    Location: C:\Users\PC\Desktop\kali-linux-2025.3-virtualbox-amd64\Snapshots\{48c5b818-b97c-40dd-a6eb-0533bbf43cb2}.vdi
 
 ## Red
 - **NIC 1:**
   - MAC: 0800271FB723
-  - Modo: NAT
-  - Cable: Conectado
-  - Tipo: 82540EM
-  - Política Promiscua: Deny
-- **NIC 2–8:** Disabled
+  - Attachment: NAT / Host-only (según ejecución)
+  - Cable: connected
+  - Type: 82540EM
+  - Promisc Policy: deny
+- **NIC 2–8:** disabled
 
-## Carpetas compartidas
-- Ninguna
+## Periféricos
+- **Pointing Device:** USB Tablet
+- **Keyboard Device:** PS/2 Keyboard
+- **Audio:** enabled (DirectSound, AC97, Codec AD1980)
+- **Clipboard Mode:** Bidirectional
+- **Drag and Drop:** Bidirectional
+
+## Grabación
+- **Recording enabled:** no
+- **Recording screens:** 1
+  - **Screen 0:**
+    - Enabled: yes
+    - File: kali-linux-2025.3-virtualbox-amd64-screen0.webm
+    - Resolution: 1024x768
+    - FPS: 25
+    - Bitrate: 512kbps
+
+## Descripción
+Kali Rolling (2025.3) x64  
+Fecha base: 2025-09-09
+
+## Credenciales
+- **Username:** kali
+- **Password:** kali
+
+## Recursos útiles
+- Kali Homepage: https://www.kali.org/
+- Kali Documentation: https://www.kali.org/docs/
+- Kali Tools: https://www.kali.org/tools/
+- Forum: https://forums.kali.org/
+- Community Chat: https://discord.kali.org/
 
 ## Snapshots
 - **clean_install**
   - UUID: 49641cdd-a365-4acc-a05d-3651657b0dd1
   - Estado: Actual (*)
 
-## Grabación
-- **Enabled:** No
-- **Screen 0:**
-  - Archivo: kali-linux-2025.3-virtualbox-amd64-screen0.webm
-  - Resolución: 1024x768
-  - FPS: 25
-  - Bitrate: 512 kbps
-
-## Credenciales por defecto (Kali)
-- **Usuario:** kali
-- **Contraseña:** kali
-
-## Recursos útiles
-- https://www.kali.org/
-- https://www.kali.org/docs/
-- https://www.kali.org/tools/
-- https://forums.kali.org/
-- https://discord.kali.org/
