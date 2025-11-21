@@ -11,3 +11,6 @@
 
 **20/11/2025 - Jair Eliud Flores Puente**
 - bin\debug\payload_debug_x64
+
+**20/11/2025 - David Alejandro Rodriguez Garcia**
+- Analisis estatico /analisis
