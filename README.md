@@ -95,12 +95,14 @@ bin/payload_release_x64
 
 ## **Uso del payload**
 1. Crear o convertir una imagen
-    Convertir PNG --> PPM:
+    Ej. Convertir PNG --> PPM:
     ```bash
     convert input.png test.ppm
 2. Insertar mensaje
     ```bash
     ./bin/payload_debug_x64 embed test.ppm stego.ppm "Mensaje de prueba"
+    ./bin/payload_debug_x64 embed [imagen a modificar] [imagen modificada] "[Texto a insertar]"
 3. Extraer mensaje
     ```bash
     ./bin/payload_debug_x64 extract stego.ppm 18
+    ./bin/payload_debug_x64 extract [imagen modificada] [longitud del mensaje (entero)]
