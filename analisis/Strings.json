@@ -1,0 +1,92 @@
+[
+  {
+    "Defined": "",
+    "Location": "00100318",
+    "Label": "s_/lib64/ld-linux-x86-64.so.2_00100318",
+    "Code Unit": "ds \\/lib64/ld-linux-x86-64.so.2\\\"\"",
+    "String View": "\\/lib64/ld-linux-x86-64.so.2\\\"\"",
+    "String Type": "string",
+    "Length": "28",
+    "Is Word": "true"
+  },
+  {
+    "Defined": "",
+    "Location": "00106010",
+    "Label": "s_[ERROR]_No_se_pudo_abrir_la_imag_00106010",
+    "Code Unit": "ds \\[ERROR] No se pudo abrir la imagen: \\\"\"",
+    "String View": "\\[ERROR] No se pudo abrir la imagen: \\\"\"",
+    "String Type": "string",
+    "Length": "37",
+    "Is Word": "true"
+  },
+  {
+    "Defined": "",
+    "Location": "00106070",
+    "Label": "s_[ERROR]_No_se_pudo_escribir_la_i_00106070",
+    "Code Unit": "ds \\[ERROR] No se pudo escribir la imagen: \\\"\"",
+    "String View": "\\[ERROR] No se pudo escribir la imagen: \\\"\"",
+    "String Type": "string",
+    "Length": "40",
+    "Is Word": "true"
+  },
+  {
+    "Defined": "",
+    "Location": "00106098",
+    "Label": "s_[ERROR]_El_mensaje_es_demasiado_g_00106098",
+    "Code Unit": "ds \\[ERROR] El mensaje es demasiado grande para la imagen.\\n\\\"\"",
+    "String View": "\\[ERROR] El mensaje es demasiado grande para la imagen.\\n\\\"\"",
+    "String Type": "string",
+    "Length": "56",
+    "Is Word": "true"
+  },
+  {
+    "Defined": "",
+    "Location": "001060d0",
+    "Label": "s_Uso:_001060d0",
+    "Code Unit": "ds \\Uso:\\n\\\"\"",
+    "String View": "\\Uso:\\n\\\"\"",
+    "String Type": "string",
+    "Length": "6",
+    "Is Word": "false"
+  },
+  {
+    "Defined": "",
+    "Location": "00106150",
+    "Label": "s_Uso:_embed_<imagen.ppm>_<salida._00106150",
+    "Code Unit": "ds \\Uso: embed <imagen.ppm> <salida.ppm> <mensaje>\\n\\\"\"",
+    "String View": "\\Uso: embed <imagen.ppm> <salida.ppm> <mensaje>\\n\\\"\"",
+    "String Type": "string",
+    "Length": "48",
+    "Is Word": "true"
+  },
+  {
+    "Defined": "",
+    "Location": "00106180",
+    "Label": "s_[OK]_Mensaje_embebido_correctame_00106180",
+    "Code Unit": "ds \\[OK] Mensaje embebido correctamente en \\\"\"",
+    "String View": "\\[OK] Mensaje embebido correctamente en \\\"\"",
+    "String Type": "string",
+    "Length": "40",
+    "Is Word": "true"
+  },
+  {
+    "Defined": "",
+    "Location": "001061b0",
+    "Label": "s_Uso:_extract_<imagen.ppm>_<num_c_001061b0",
+    "Code Unit": "ds \\Uso: extract <imagen.ppm> <num_chars>\\n\\\"\"",
+    "String View": "\\Uso: extract <imagen.ppm> <num_chars>\\n\\\"\"",
+    "String Type": "string",
+    "Length": "39",
+    "Is Word": "true"
+  },
+  {
+    "Defined": "",
+    "Location": "001061ed",
+    "Label": "s_Modo_no_reconocido._001061ed",
+    "Code Unit": "ds \\Modo no reconocido.\\n\\\"\"",
+    "String View": "\\Modo no reconocido.\\n\\\"\"",
+    "String Type": "string",
+    "Length": "21",
+    "Is Word": "true"
+  }
+]
