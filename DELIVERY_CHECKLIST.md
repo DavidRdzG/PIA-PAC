@@ -6,7 +6,7 @@
 ### Archivos en la raíz
 - [x] `README.md`
 - [x] `ETHICS.md`
-- [ ] `METADATA.md`
+- [x] `METADATA.md`
 - [ ] `CHANGELOG.md`
 - [x] `DELIVERY_CHECKLIST.md`
 
