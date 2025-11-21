@@ -7,7 +7,7 @@
 - [x] `README.md`
 - [x] `ETHICS.md`
 - [x] `METADATA.md`
-- [ ] `CHANGELOG.md`
+- [x] `CHANGELOG.md`
 - [x] `DELIVERY_CHECKLIST.md`
 
 ---
