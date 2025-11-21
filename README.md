@@ -1,38 +1,85 @@
-# PIA — Tarea 6 (Segundo avance)
+# Proyecto Integrador Aplicado (PIA)  
+### Payload educativo para análisis estático y dinámico
 
-## Objetivo
-Desarrollar un payload educativo en C++ que realice una petición GET `/status` a un servidor de prueba. Todo el desarrollo y pruebas se realizan en VMs aisladas y cumpliendo ETHICS.md.
+## **Objetivo**
+Desarrollar un **payload benigno** basado en esteganografía LSB para fines educativos, permitiendo practicar análisis estático, dinámico e ingeniería inversa en un entorno **100% aislado**.
 
-## Estructura del repo
-(ver la sección "Estructura propuesta" en el documento principal)
+---
 
-## Requisitos
-- Sistema: Linux (se probó en Ubuntu 20.04 LTS en VM)
-- g++ (>= 5.4) soportando C++11
-- Python 3.8+ (opcional, para el server_stub)
+## **Plataforma objetivo y dependencias**
+- **Sistema objetivo:** Linux (Ubuntu 22.04 LTS) — ejecutado únicamente en VM aislada.  
+- **Compilador:** `g++` (>= 11.x), con soporte C++11.  
+- **Dependencias opcionales:**  
+  - `python3` (generación de imágenes)  
+  - `imagemagick` (conversión PNG → PPM)  
 
-## Compilar
-Desde la raíz del repositorio:
+---
 
+## **Estructura del repositorio**
+/
+├── README.md
+├── ETHICS.md
+├── CHANGELOG.md
+├── METADATA.md
+├── DELIVERY_CHECKLIST.md
+├── src/
+│ └── payload_stego.cpp
+├── bin/
+│ ├── payload_debug_x64
+│ └── payload_release_x64
+├── docs/
+│ ├── report_final.pdf
+│ └── tests.md
+├── analysis/
+│ └── ghidra_export.zip
+└── evidence/
+    └──evidence_YYYYMMDD_vm_snapshot.png
+    └──evidence_YYYYMMDD_execution.png
+    └──evidence_YYYYMMDD_ghidra.png
+    └── demo_short.mp4
+
+
+---
+
+## **Clonar el repositorio**
 ```bash
-# build debug
+git clone https://github.com/DavidRdzG/PIA-PAC
+cd PIA-PAC
+
+## **Instalacion de dependencias**
+```bash
+sudo apt update
+sudo apt install -y build-essential g++ make python3 imagemagick
+
+## **Compilación**
+### Build de depuración (con símbolos)
+```bash
 make debug
-# build release (opcional)
+
+#### Genera:
+```bash
+bin/payload_debug_x64
+
+### Build optimizada (release)
+```bash
 make release
-Los binarios quedarán en bin/debug/payload_client y bin/release/payload_client.
 
-```
-
-Levantar servidor
+#### Genera
 ```bash
+bin/payload_release_x64
 
-python3 src/server/server_stub.py --host 127.0.0.1 --port 8000
 
-```
+---
 
-Ejecutar cliente
 
-```bash
-cd /bin/debug/
-./payload_client 127.0.0.1 8000
-```
+## **Uso del payload**
+1. Crear o convertir una imagen
+    Convertir PNG --> PPM:
+    ```bash
+    convert input.png test.ppm
+2. Insertar mensaje
+    ```bash
+    ./bin/payload_debug_x64 embed test.ppm stego.ppm "Mensaje de prueba"
+3. Extraer mensaje
+    ```bash
+    ./bin/payload_debug_x64 extract stego.ppm 18

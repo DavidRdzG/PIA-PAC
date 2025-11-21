@@ -21,4 +21,3 @@ release:
 clean:
 	rm -rf bin/debug bin/release
 	@echo "[Limpieza completa]"
-MAKE
