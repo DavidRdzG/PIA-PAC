@@ -13,5 +13,5 @@ Su funcionalidad estará limitada a la recopilación de datos en entornos de pru
 
 **Firmas**
 
--David Alejandro Rodriguez Garcia
+-  David Alejandro Rodriguez Garcia
 - Jair Eliud Flores Puente
