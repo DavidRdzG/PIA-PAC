@@ -8,7 +8,7 @@
 - [x] `ETHICS.md`
 - [ ] `METADATA.md`
 - [ ] `CHANGELOG.md`
-- [ ] `DELIVERY_CHECKLIST.md`
+- [x] `DELIVERY_CHECKLIST.md`
 
 ---
 
@@ -20,14 +20,14 @@
 - [ ] `/docs`
   - [ ] `report_final.pdf`
   - [ ] `tests.md`
-- [ ] `/analysis`
-  - [ ] Proyecto de Ghidra exportado.
-  - [ ] Strings extraídos (txt/json).
-  - [ ] Capturas de funciones.
+- [x] `/analysis`
+  - [x] Proyecto de Ghidra exportado.
+  - [x] Strings extraídos (txt/json).
+  - [x] Capturas de funciones.
 - [ ] `/evidence` — Evidencia multimedia:
-  - [ ] Captura 1: Snapshot de VM antes de ejecutar el binario.
-  - [ ] Captura 2: Ejecución del binario mostrando salida.
-  - [ ] Captura 3: Vista del análisis estático (Ghidra).
+  - [x] Captura 1: Snapshot de VM antes de ejecutar el binario.
+  - [x] Captura 2: Ejecución del binario mostrando salida.
+  - [x] Captura 3: Vista del análisis estático (Ghidra).
   - [ ] Video `demo_short.mp4`
 
 ---
