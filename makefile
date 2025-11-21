@@ -1,25 +1,23 @@
-# Makefile para PIA Tarea 6
-# Autor: Jair Eliud Flores Puente
+CXX = g++
+CXXFLAGS_DEBUG = -std=c++11 -g -O0 -Wall -Wextra
+CXXFLAGS_RELEASE = -std=c++11 -O2 -Wall
+SRC = src/client/payload_stego.cpp
 
-CXX := g++
-CXXFLAGS_DEBUG := -std=c++11 -g -O0 -Wall -Wextra
-CXXFLAGS_RELEASE := -std=c++11 -O2 -Wall -Wextra
-SRCDIR := src/client
-BINDIR_DEBUG := bin/debug
-BINDIR_RELEASE := bin/release
-TARGET := payload_client
+DEBUG_OUT = bin/debug/payload_stego
+RELEASE_OUT = bin/release/payload_stego
 
-.PHONY: all debug release clean
-
-all: debug
+all: debug release
 
 debug:
-	mkdir -p $(BINDIR_DEBUG)
-	$(CXX) $(CXXFLAGS_DEBUG) $(SRCDIR)/payload_client.cpp -o $(BINDIR_DEBUG)/$(TARGET)
+	mkdir -p bin/debug
+	$(CXX) $(CXXFLAGS_DEBUG) $(SRC) -o $(DEBUG_OUT)
+	@echo "[OK] Binario DEBUG generado en $(DEBUG_OUT)"
 
 release:
-	mkdir -p $(BINDIR_RELEASE)
-	$(CXX) $(CXXFLAGS_RELEASE) $(SRCDIR)/payload_client.cpp -o $(BINDIR_RELEASE)/$(TARGET)
+	mkdir -p bin/release
+	$(CXX) $(CXXFLAGS_RELEASE) $(SRC) -o $(RELEASE_OUT)
+	@echo "[OK] Binario RELEASE generado en $(RELEASE_OUT)"
 
 clean:
-	rm -rf bin/*
+	rm -rf bin/debug bin/release
+	@echo "[Limpieza completa]"
