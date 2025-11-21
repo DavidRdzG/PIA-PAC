@@ -30,6 +30,6 @@
   - [x] Captura 3: Vista del análisis estático (Ghidra).
   - [x] Video `demo_short.mp4`
 ## Tag Final
-- [X] TAG fINAL:
+- [X] TAG fINAL: b68c367b7a3dd1f5e953d0c16a87dc116f422cf2
 
 ---
