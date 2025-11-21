@@ -19,15 +19,15 @@
   - [x] Versión *release* optimizada.
 - [ ] `/docs`
   - [ ] `report_final.pdf`
-  - [ ] `tests.md`
+  - [x] `tests.md`
 - [x] `/analysis`
   - [x] Proyecto de Ghidra exportado.
   - [x] Strings extraídos (txt/json).
   - [x] Capturas de funciones.
-- [ ] `/evidence` — Evidencia multimedia:
+- [x] `/evidence` — Evidencia multimedia:
   - [x] Captura 1: Snapshot de VM antes de ejecutar el binario.
   - [x] Captura 2: Ejecución del binario mostrando salida.
   - [x] Captura 3: Vista del análisis estático (Ghidra).
-  - [ ] Video `demo_short.mp4`
+  - [x] Video `demo_short.mp4`
 
 ---
