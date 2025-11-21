@@ -29,5 +29,7 @@
   - [x] Captura 2: Ejecución del binario mostrando salida.
   - [x] Captura 3: Vista del análisis estático (Ghidra).
   - [x] Video `demo_short.mp4`
+## Tag Final
+- [X] TAG fINAL:
 
 ---
