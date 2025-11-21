@@ -17,26 +17,47 @@ Desarrollar un **payload benigno** basado en esteganografía LSB para fines educ
 
 ## **Estructura del repositorio**
 /
-├── README.md
-├── ETHICS.md
-├── CHANGELOG.md
-├── METADATA.md
-├── DELIVERY_CHECKLIST.md
-├── src/
-│ └── payload_stego.cpp
-├── bin/
-│ ├── payload_debug_x64
-│ └── payload_release_x64
-├── docs/
-│ ├── report_final.pdf
-│ └── tests.md
-├── analysis/
-│ └── ghidra_export.zip
-└── evidence/
-    └──evidence_YYYYMMDD_vm_snapshot.png
-    └──evidence_YYYYMMDD_execution.png
-    └──evidence_YYYYMMDD_ghidra.png
-    └── demo_short.mp4
+
+├── README.md 
+
+├── ETHICS.md 
+
+├── CHANGELOG.md 
+
+├── METADATA.md 
+
+├── DELIVERY_CHECKLIST.md 
+
+├── src/ 
+
+│ └── payload_stego.cpp 
+
+├── bin/ 
+
+│ ├── payload_debug_x64 
+
+│ └── payload_release_x64 
+
+├── docs/ 
+
+│ ├── report_final.pdf 
+
+│ └── tests.md 
+
+├── analysis/ 
+
+│ └── ghidra_export.zip 
+
+└── evidence/ 
+
+| └──evidence_YYYYMMDD_vm_snapshot.png 
+    
+| └──evidence_YYYYMMDD_execution.png 
+  
+| └──evidence_YYYYMMDD_ghidra.png 
+    
+| └── demo_short.mp4 
+    
 
 
 ---
@@ -45,29 +66,29 @@ Desarrollar un **payload benigno** basado en esteganografía LSB para fines educ
 ```bash
 git clone https://github.com/DavidRdzG/PIA-PAC
 cd PIA-PAC
-
+```
 ## **Instalacion de dependencias**
 ```bash
 sudo apt update
 sudo apt install -y build-essential g++ make python3 imagemagick
-
+```
 ## **Compilación**
 ### Build de depuración (con símbolos)
 ```bash
 make debug
-
+```
 #### Genera:
 ```bash
 bin/payload_debug_x64
-
+```
 ### Build optimizada (release)
 ```bash
 make release
-
+```
 #### Genera
 ```bash
 bin/payload_release_x64
-
+```
 
 ---
 
