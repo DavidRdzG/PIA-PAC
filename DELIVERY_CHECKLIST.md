@@ -33,5 +33,6 @@
 - [X] TAG fINAL: b68c367b7a3dd1f5e953d0c16a87dc116f422cf2
 
 ---
-
+## Entrega Video
 - [x] video_Flores_Jair.mp4 — commit — duración 03:10 (Hash: 2ae11190834bed3706d78ef7e498b9942eb9f9bd)
+- [x] video_rodriguez_david.mp4 — comit — duración 03:14 (Hash: 59db04c9c336599dcc323b97bc03d24e6f36c015)
